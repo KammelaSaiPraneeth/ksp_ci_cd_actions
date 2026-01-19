@@ -5,7 +5,7 @@ jobs:
     runs-on:
       steps:
         - name: Print a greeting 
-            run:echo "Hello World:"
-              - name: Print a bye
-                run:echo "Good Bye"
+          run:echo "Hello World:"
+        - name: Print a bye
+          run:echo "Good Bye"
         
